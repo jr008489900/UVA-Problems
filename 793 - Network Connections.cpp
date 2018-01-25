@@ -14,7 +14,7 @@ void initial()
     success=0; unsuccess=0;
 }
 
-int finds(int element) ///§ä¨ì¸Ó¤¸¯À©Ò³Bªº®Ú¸s
+int finds(int element) ///æ‰¾å°‹è©²å…ƒç´ æ‰€è™•é›†åˆçš„æ ¹
 {
     if(Sets[element]==element) return element;
     else return finds(Sets[element]);
